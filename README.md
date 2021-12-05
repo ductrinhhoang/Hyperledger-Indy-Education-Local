@@ -1,9 +1,5 @@
 # Hyperledger Indy Agent Demonstration
 
-## Credits
-
-The code for this demonstration was initially written by Spencer Holman and Matthew Hailstone of Brigham Young University. Carol Howard created the documentation for the demonstration.
-
 ## Running in your Browser or on Local Machine
 
 This demo can be run in a terminal using just a browser , or if you are more technically inclined, you can run it on your local machine. In the following sections, there is a sub-section for `In Browser` and `Local Machine`, depending on how you want to run the demo.
@@ -123,9 +119,3 @@ To stop the demo, go to the browser tab where you ran `docker-compose up` and cl
 ### Local Machine
 
 To stop the demo, go to the terminal window where you ran `docker-compose up`. If the logs are scrolling and/or you are not at the command prompt, hit `Ctrl-C`. Run the command `./manage down`.  You should see a `Done` message as each of the 10 containers stops.  Run the command `docker ps` to see that the containers have stopped.
-
-# Trouble Shooting
-
-> As issues are discovered by users of this demo, we'll add more troubleshooting instructions here.
-
-* The "validate" of the Government ID Credential for each of the Identities is often failing - displaying a large red "X". We're still investigating why that is happening in some cases but not others.
