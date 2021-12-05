@@ -86,10 +86,6 @@ The instructions for walking through the demonstration script are here: **[Agent
 You can also open in a browser a Blockchain Ledger Explorer:
 * **9000**
 
-Although we don't talk about them in the demo overview, there are two additional Agents running that you can access:
-* **3001** for Bob
-* **3004** for Thrift Bank
-
 > The remainder of the numbers (ports - 9701-9708) are the ports to the Blockchain Ledger nodes - two per node.
 
 ## Local Machine
@@ -105,10 +101,6 @@ The instructions for walking through the demonstration script are here: **[Agent
 
 You can also open in a browser a Ledger Explorer:
 * [http://localhost:9000](http://localhost:9000)
-
-Although we don't talk about them in the demo overview, there are two additional Agents running that you can access:
-* [http://localhost:3001](http://localhost:3001) for Bob
-* [http://localhost:3004](http://localhost:3004) for Thrift Bank
 
 ## Stopping the Demo
 
