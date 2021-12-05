@@ -1,17 +1,5 @@
 # Hyperledger Indy Agent Demonstration
 
-This folder contains a demonstration of basic Hyperledger Indy Agents. The agents provide a web browser interface to show establishing relationships between agents, issuing Verifiable Credentials, and proving claims from Verifiable Credentials.
-
-> **This demonstration is based on some early Indy Agent code that should *NOT* be used as the basis of new implementations or as a reference for implementing an agent. Since  this demonstration was developed the Indy (and Aries) community has evolved the notion of Agents significantly and this code base has been abandoned. It is still a good demo for understanding how agents work on a superficial level -- the concepts of agents connecting and exchanging credentials. However, if you are interested in building on the latest Indy/Aries code, you should look at the [Aries project](https://github.com/hyperledger/aries), the [Aries Cloud Agent - Python](https://github.com/hyperledger/aries-cloudagent-python) and other interoperable components. If you are a developer (or wannabe), check out this [Becoming an Indy/Aries Developer](https://github.com/hyperledger/aries-cloudagent-python/tree/master/docs/GettingStartedAriesDev) guide.**
-
-To learn more about Hyperledger Indy, see the project wiki - https://wiki.hyperledger.org/display/indy.
-
-This demo is used as an exercise for those taking the Hyperledger Project's EdX  [Blockchain for Business](https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x-0) course.
-
-Once you have the demo started, this **[Agent Demo Script](AgentDemoScript.md)** guides you through the scenario of Alice using Hyperledger Indy to get her transcripts from Faber College and then using them to apply for a job with Acme Corp.
-
-[Click here](https://youtu.be/9WZxlrGMA3s) to view a short screencast of the demo.
-
 ## Credits
 
 The code for this demonstration was initially written by Spencer Holman and Matthew Hailstone of Brigham Young University. Carol Howard created the documentation for the demonstration.
@@ -46,7 +34,7 @@ Go to the [Play with Docker](https://labs.play-with-docker.com/) and (if necessa
 
 Click the "Start" button to start a Docker sandbox you can use to run the demo, and then click the `+Add an Instance` link to start a terminal in your browser. Within the browser, run the following command:
 
-- `git clone https://github.com/hyperledger/education`
+- `git clone https://github.com/ductrinhhoang/Hyperledger-Indy-Education-Local`
 
 > **Tip**: To paste text in the terminal window, right-click on the window and choose `paste`
 
@@ -63,10 +51,8 @@ To install the demonstration on your local machine you need to clone the git rep
     * Run `docker-compose --version`, which should return something like: `docker-compose version 1.22.0, build f46880fe`
     * Your version numbers should be the same or higher.
 * Open a terminal session and navigate to where you want to install the source code.
-* Run the command: `git clone https://github.com/hyperledger/education/`
+* Run the command: `git clone https://github.com/ductrinhhoang/Hyperledger-Indy-Education-Local/`
   * That will download the repository containing the source code onto your system.
-* Navigate to the location of the code by running the command:
-  * `cd education/LFS171x/indy-material/nodejs`
 
 ## Starting the Demonstration
 
